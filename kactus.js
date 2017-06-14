@@ -10,7 +10,7 @@ if (!command) {
   process.exit(1)
 }
 
-if (command !== 'import' && command !== 'parse' && command !== 'find' && command !== 'parseAll' && command !== 'importAll') {
+if (command !== 'import' && command !== 'parse' && command !== 'find' && command !== 'parseAll' && command !== 'importAll' && command !== 'createNew') {
   console.error('Command ' + command + ' not recocgnized.')
   console.error('Only `import` and `parse` are supported. ' + usage)
   process.exit(1)
@@ -36,4 +36,6 @@ if (command === 'import') {
   require('./lib/parseAll')(path).catch(catcher)
 } else if (command === 'find') {
   console.log(JSON.stringify(require('./lib/find')(path), null, '\t'))
+} else if (command === 'createNew') {
+  require('./lib/createNew')(path).catch(catcher)
 }

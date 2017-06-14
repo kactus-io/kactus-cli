@@ -25,4 +25,5 @@ declare namespace Kactus {
     export function parseAll(path: string): Promise<void>
     export function importAll(path: string): Promise<void>
     export function find(path: string): IKactusStatusResult
+    export function createNewFile(path: string, config?: IKactusConfig): Promise<void>
 }
