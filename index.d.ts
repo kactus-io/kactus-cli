@@ -13,6 +13,7 @@ declare namespace Kactus {
       readonly id: string
       readonly parsed: boolean
       readonly imported: boolean
+      readonly lastModified?: number
     }
 
     export interface IKactusStatusResult {
