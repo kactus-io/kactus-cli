@@ -1,0 +1,25 @@
+notifications:
+  email:
+    on_success: never
+    on_failure: change
+
+os:
+  - osx
+
+language: node_js
+node_js:
+  - "7"
+
+cache:
+  timeout: 600
+  directories:
+    - node_modules
+
+install:
+  - npm install -g npm@4.6.1
+  - npm prune
+  - npm install
+
+script:
+  - npm run lint
+  - npm test

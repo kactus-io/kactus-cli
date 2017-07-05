@@ -8,8 +8,15 @@
   "main": "index.js",
   "types": "index.d.ts",
   "scripts": {
-    "test": "standard **/*.js"
+    "lint": "standard **/*.js",
+    "test": "jest"
   },
+  "files":[
+    "lib",
+    "index.d.ts",
+    "index.js",
+    "kactus.js"
+  ],
   "author": "Mathieu Dutour <mathieu@dutour.me> (http://mathieu.dutour.me/)",
   "license": "MIT",
   "dependencies": {
@@ -20,6 +27,11 @@
     "uuid": "^3.0.1"
   },
   "devDependencies": {
+    "jest": "^20.0.4",
     "standard": "^10.0.2"
+  },
+  "jest": {
+    "testEnvironment": "node",
+    "testRegex": "/__tests__/.*\\.test\\.js"
   }
 }
