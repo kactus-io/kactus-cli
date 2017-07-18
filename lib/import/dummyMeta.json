@@ -1,11 +1,19 @@
 {
-  "commit": "e2605be2c711d24ef8dd37aebbea370eb114d5c6",
-  "appVersion": "43",
-  "build": 38916,
-  "app": "com.bohemiancoding.sketch3.beta",
-  "fonts": ["STHeitiSC-Light", "AvenirNext-Medium", "HelveticaNeue", "AvenirNext-Regular"],
-  "version": 88,
-  "saveHistory": ["BETA.38916"],
-  "autosaved": 0,
-  "variant": "BETA"
+  "commit": "c871c6c3fa8a2bc8ee8592fd0f4db2b9a32687dc",
+  "appVersion": "45.2",
+  "build": 43514,
+  "app": "com.bohemiancoding.sketch3",
+  "fonts": [],
+  "created": {
+    "app": "com.bohemiancoding.sketch3",
+    "commit": "c871c6c3fa8a2bc8ee8592fd0f4db2b9a32687dc",
+    "build": 43514,
+    "appVersion": "45.2",
+    "variant": "NONAPPSTORE",
+    "version": 92
+  },
+  "version": 92,
+  "saveHistory": ["NONAPPSTORE.43514"],
+  "autosaved": 1,
+  "variant": "NONAPPSTORE"
 }
