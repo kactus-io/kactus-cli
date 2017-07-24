@@ -13,7 +13,6 @@
   "enableLayerInteraction": true,
   "enableSliceInteraction": true,
   "foreignSymbols": [],
-
   "layerSymbols": {
     "_class": "symbolContainer",
     "objects": []

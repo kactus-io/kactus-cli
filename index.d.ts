@@ -22,10 +22,10 @@ declare namespace Kactus {
       readonly files: Array<IKactusFile>
     }
 
-    export function parseFile(path: string, config?: IKactusConfig & {sketchVersion?: string}): Promise<void>
-    export function importFolder(path: string, config?: IKactusConfig): Promise<void>
-    export function parseAll(path: string): Promise<void>
-    export function importAll(path: string): Promise<void>
+    export function parseFile(path: string, config?: IKactusConfig & {sketchVersion?: string}): Promise<string>
+    export function importFolder(path: string, config?: IKactusConfig): Promise<string>
+    export function parseAll(path: string): Promise<Array<string>>
+    export function importAll(path: string): Promise<Array<string>>
     export function find(path: string): IKactusStatusResult
-    export function createNewFile(path: string, config?: IKactusConfig): Promise<void>
+    export function createNewFile(path: string, config?: IKactusConfig): Promise<string>
 }
