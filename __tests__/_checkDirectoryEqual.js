@@ -39,8 +39,8 @@ module.exports = function isDirEqual (dir, dir2) {
             readFile(filename),
             readFile(filename2)
           ]).then(([fileContent, fileContent2]) => {
-            expect(fileContent.toString()).toBe(fileContent2.toString())
-            return fileContent.toString() === fileContent2.toString()
+            expect(fileContent.toString().trim()).toBe(fileContent2.toString().trim())
+            return fileContent.toString().trim() === fileContent2.toString().trim()
           })
         })
       }, Promise.resolve(true))
