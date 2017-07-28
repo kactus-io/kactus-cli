@@ -2,20 +2,26 @@
   "_class": "document",
   "assets": {
     "_class": "assetCollection",
-    "colors": [],
-    "gradients": [],
+    "colors": [
+    ],
+    "gradients": [
+    ],
     "imageCollection": {
       "_class": "imageCollection",
-      "images": {}
+      "images": {
+      }
     },
-    "images": []
+    "images": [
+    ]
   },
+  "do_objectID": "9fa81800-61c3-11e7-9b20-13a8266131bc",
   "enableLayerInteraction": true,
   "enableSliceInteraction": true,
-  "foreignSymbols": [],
+  "foreignSymbols": [
+  ],
   "layerSymbols": {
     "_class": "symbolContainer",
-    "objects": []
-  },
-  "do_objectID": "9fa81800-61c3-11e7-9b20-13a8266131bc"
+    "objects": [
+    ]
+  }
 }

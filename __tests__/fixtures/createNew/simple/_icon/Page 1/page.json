@@ -1,9 +1,12 @@
 {
   "_class": "page",
+  "do_objectID": "9fa7c9e0-61c3-11e7-9b20-13a8266131bc",
   "exportOptions": {
     "_class": "exportOptions",
-    "exportFormats": [],
-    "includedLayerIds": [],
+    "exportFormats": [
+    ],
+    "includedLayerIds": [
+    ],
     "layerOptions": 0,
     "shouldTrim": false
   },
@@ -15,11 +18,21 @@
     "x": 0,
     "y": 0
   },
+  "hasClickThrough": true,
+  "horizontalRulerData": {
+    "_class": "rulerData",
+    "base": -333,
+    "guides": [
+    ]
+  },
+  "includeInCloudUpload": true,
   "isFlippedHorizontal": false,
   "isFlippedVertical": false,
   "isLocked": false,
   "isVisible": true,
   "layerListExpandedType": 0,
+  "layers": [
+  ],
   "name": "Page 1",
   "nameIsFixed": false,
   "resizingConstraint": 63,
@@ -32,18 +45,10 @@
     "miterLimit": 10,
     "startDecorationType": 0
   },
-  "hasClickThrough": true,
-  "layers": [],
-  "horizontalRulerData": {
-    "_class": "rulerData",
-    "base": -333,
-    "guides": []
-  },
-  "includeInCloudUpload": true,
   "verticalRulerData": {
     "_class": "rulerData",
     "base": -265,
-    "guides": []
-  },
-  "do_objectID": "9fa7c9e0-61c3-11e7-9b20-13a8266131bc"
+    "guides": [
+    ]
+  }
 }
