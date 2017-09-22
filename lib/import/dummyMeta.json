@@ -1,6 +1,6 @@
 {
   "commit": "c871c6c3fa8a2bc8ee8592fd0f4db2b9a32687dc",
-  "appVersion": "45.2",
+  "appVersion": "46.2",
   "build": 43514,
   "app": "com.bohemiancoding.sketch3",
   "fonts": [],
@@ -8,11 +8,11 @@
     "app": "com.bohemiancoding.sketch3",
     "commit": "c871c6c3fa8a2bc8ee8592fd0f4db2b9a32687dc",
     "build": 43514,
-    "appVersion": "45.2",
+    "appVersion": "46.2",
     "variant": "NONAPPSTORE",
-    "version": 92
+    "version": 93
   },
-  "version": 92,
+  "version": 93,
   "saveHistory": ["NONAPPSTORE.43514"],
   "autosaved": 1,
   "variant": "NONAPPSTORE"
