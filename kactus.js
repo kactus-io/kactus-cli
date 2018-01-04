@@ -35,7 +35,9 @@ if (command === 'import') {
 } else if (command === 'parseAll') {
   require('./lib/parseAll')(path).catch(catcher)
 } else if (command === 'find') {
-  console.log(JSON.stringify(require('./lib/find')(path), null, '\t'))
+  require('./lib/find')(path)
+    .then((result) => console.log(JSON.stringify(result, null, '\t')))
+    .catch(catcher)
 } else if (command === 'createNew') {
   require('./lib/createNew')(path).catch(catcher)
 }
