@@ -11,7 +11,7 @@ if (!command) {
 }
 
 if (command !== 'import' && command !== 'parse' && command !== 'find' && command !== 'parseAll' && command !== 'importAll' && command !== 'createNew') {
-  console.error('Command ' + command + ' not recocgnized.')
+  console.error('Command ' + command + ' not recognized.')
   console.error('Only `import` and `parse` are supported. ' + usage)
   process.exit(1)
 }
