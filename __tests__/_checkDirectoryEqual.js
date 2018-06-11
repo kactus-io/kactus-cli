@@ -1,7 +1,7 @@
 /* globals expect */
 const path = require('path')
 
-const { readdir, stat, readFile } = require('../lib/fs-promise')
+const { readdir, stat, readFile } = require('fs-extra')
 
 module.exports = function isDirEqual (dir, dir2) {
   return Promise.all([
@@ -36,11 +36,11 @@ module.exports = function isDirEqual (dir, dir2) {
           }
           // if it's a normal file, read both and compare them
           return Promise.all([
-            readFile(filename),
-            readFile(filename2)
+            readFile(filename, 'utf8'),
+            readFile(filename2, 'utf8')
           ]).then(([fileContent, fileContent2]) => {
-            expect(fileContent.toString().trim()).toBe(fileContent2.toString().trim())
-            return fileContent.toString().trim() === fileContent2.toString().trim()
+            expect(fileContent.trim()).toBe(fileContent2.trim())
+            return fileContent.trim() === fileContent2.trim()
           })
         })
       }, Promise.resolve(true))
