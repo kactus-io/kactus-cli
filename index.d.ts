@@ -23,7 +23,7 @@ declare namespace Kactus {
     }
 
     export function parseFile(path: string, config?: IKactusConfig & {sketchVersion?: string}): Promise<string>
-    export function importFolder(path: string, config?: IKactusConfig): Promise<string>
+    export function importFolder(path: string, config?: IKactusConfig & {sketchPath?: string}): Promise<string>
     export function parseAll(path: string): Promise<Array<string>>
     export function importAll(path: string): Promise<Array<string>>
     export function find(path: string): Promise<IKactusStatusResult>
