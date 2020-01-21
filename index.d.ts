@@ -7,6 +7,7 @@ declare namespace Kactus {
       readonly sharedPages?: Array<string>
       readonly ignore?: Array<string>
       readonly root?: string
+      readonly limitToTopLevelLayers?: boolean
     }
 
     export interface IKactusFile {
