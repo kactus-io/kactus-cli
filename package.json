@@ -1,6 +1,6 @@
 {
   "name": "kactus-cli",
-  "version": "0.6.0",
+  "version": "0.6.1",
   "description": "",
   "bin": {
     "kactus": "kactus.js"
